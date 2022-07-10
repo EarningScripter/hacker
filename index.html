@@ -15,17 +15,17 @@
     <div class='roll-dice'>
         <div class='score-counter'>
             <div class='player'>
-                ID 1: <span class='player1-score'>0</span>
+                Red <span class='player1-score'>0</span>
             </div>
             <div class='player'>
-                ID 2: <span class='player2-score'>0</span>
+                Green <span class='player2-score'>0</span>
             </div>
         </div>
         <div class='dice-output'>
             <div class='dice output1'>0</div>
             <div class='dice output2'>0</div>
         </div>
-        <button class='play-button'>   开始 [ START ]</button>
+        <button class='play-button'>    [ START ]</button>
     </div>
 </div>
 <footer>
@@ -176,7 +176,7 @@ rollDice.addEventListener('click', function()
       if(player1_score >= 20)
       {
         gameOver = true;
-        document.querySelector('.h1').innerHTML = 'Player 1 wins <span class="fs40">馃弳</span>';
+        document.querySelector('.h1').innerHTML = 'Red Wins <span class="fs40"></span>';
         rollDice.innerText = 'Reset 馃攣';
       }
       check = false;
@@ -193,7 +193,7 @@ rollDice.addEventListener('click', function()
       if(player2_score >= 20)
       {
         gameOver = true;
-        document.querySelector('.h1').innerHTML  = 'Player 2 wins <span class="fs40">馃弳</span>';
+        document.querySelector('.h1').innerHTML  = 'Green Wins <span class="fs40"></span>';
         rollDice.innerText = 'Reset 馃攣';
       }
       check = true;
@@ -205,6 +205,26 @@ rollDice.addEventListener('click', function()
 </script>
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
                  <hr>
  </form>
