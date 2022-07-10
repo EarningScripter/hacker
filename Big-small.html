@@ -173,7 +173,7 @@ rollDice.addEventListener('click', function()
       diceOutput1.innerText = dice_value;
       player1_score += dice_value;
       player1Score.innerText = player1_score;
-      if(player1_score >= 20)
+      if(player1_score >= 10)
       {
         gameOver = true;
         document.querySelector('.h1').innerHTML = 'Big Wins <span class="fs40"></span>';
@@ -190,7 +190,7 @@ rollDice.addEventListener('click', function()
       diceOutput2.innerText = dice_value;
       player2_score += dice_value;
       player2Score.innerText = player2_score;
-      if(player2_score >= 20)
+      if(player2_score >= 10)
       {
         gameOver = true;
         document.querySelector('.h1').innerHTML  = 'Small Wins <span class="fs40"></span>';
